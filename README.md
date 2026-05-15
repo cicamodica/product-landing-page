@@ -10,6 +10,16 @@ A proposta do projeto é simular uma experiência real de showcase de produtos, 
 
 O projeto foi desenvolvido utilizando a abordagem *Mobile First*, garantindo uma experiência consistente em diferentes tamanhos de tela.
 
+# Preview
+
+## Desktop
+
+<img width="1280" height="640" alt="Design sem nome (1)" src="https://github.com/user-attachments/assets/e2bf45df-d3e5-4deb-9843-3636a85c7125" />
+
+## Mobile
+
+<img width="1280" height="640" alt="Design sem nome" src="https://github.com/user-attachments/assets/f9670fbb-a9d2-4aea-8890-fa6c1723127f" />
+
 # Objetivo
 
 Este projeto foi desenvolvido com o objetivo de:
@@ -22,8 +32,6 @@ Este projeto foi desenvolvido com o objetivo de:
 - Simular fluxo real de desenvolvimento utilizando Git e GitHub
 - Aplicar conceitos de Design System e organização visual
 
-<br>
-
 # Tecnologias utilizadas
 
 - HTML5
@@ -32,8 +40,6 @@ Este projeto foi desenvolvido com o objetivo de:
 - Figma
 - Git
 - GitHub
-
-<br>
 
 # Funcionalidades
 
@@ -61,7 +67,6 @@ Este projeto foi desenvolvido com o objetivo de:
 - Melhorias de acessibilidade
 - Validação de formulário
 
-<br>
 
 # Estrutura de pastas
 
@@ -87,7 +92,6 @@ product-landing-page/
 │
 └── README.md
 ```
-<br>
 
 # Como executar o projeto
 1. Clone o repositório *git clone https://github.com/cicamodica/product-landing-page.git*
@@ -100,7 +104,6 @@ product-landing-page/
 
 - Ou utilize a extensão Live Server no VS Code para uma melhor experiência durante o desenvolvimento.
 
-<br>
 
 # Responsividade
 O projeto foi desenvolvido seguindo a metodologia:
@@ -111,7 +114,6 @@ O projeto foi desenvolvido seguindo a metodologia:
 
 - Desktop Responsive
 
-<br>
 
 # Design
 
@@ -128,16 +130,15 @@ O layout foi criado no Figma com foco em:
 - Espaçamento organizado
 
 - Experiência do usuário
+  
 
-<br>
-
-## Status do projeto
+# Status do projeto
 
 Em desenvolvimento:
 
 Atualmente o projeto está em fase de implementação front-end e novas funcionalidades serão adicionadas futuramente.
 
-## Autor
+# Autor
 
 Desenvolvido por Maria Cecilia Caruzzo Modica.
 
