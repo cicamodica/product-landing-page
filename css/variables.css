@@ -1,0 +1,160 @@
+@import url("./reset.css");
+@import url("./variables.css");
+
+@font-face {
+  font-family: "Albert Sans";
+  src: url("../assets/fonts/albert-sans/AlbertSans-VariableFont_wght.ttf")
+    format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Albert Sans";
+  src: url("../assets/fonts/albert-sans/AlbertSans-Italic-VariableFont_wght.ttf")
+    format("truetype");
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Cal Sans";
+  src: url("../assets/fonts/cal-sans/CalSans-Regular.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+
+/* Colors - Brand */
+
+  --color-orange-medium: #e45d19;
+  --color-gray-medium: #6b6b6b;
+  --color-black-medium: #262625;
+
+  /* Colors - Semantic */
+
+  --color-primary: var(--color-orange-medium);
+  --color-secondary: var(--color-gray-medium);
+
+  --color-success: #16a34a;
+  --color-warning: #f1b307;
+  --color-danger: #CC0E0E;
+  --color-info: #2563eb;
+
+  /* Colors - Neutral */
+
+  --color-white: #fcfbf9;
+  --color-black: #262625;
+
+  --color-background: #fcf8f5;
+  --color-surface: #fcfbf9;
+
+  --color-text: var(--color-gray-medium);
+  --color-text-muted: #c0c0c0;
+
+  --color-border: #c8c8c8;
+  --color-border-strong: var(--color-gray-medium);
+
+  /* Colors - Transparent */
+
+  --color-orange-transparent: #ff8a04d0;
+  --color-pink-transparent: #fb64b7d8;
+  --color-blue-transparent: #51a2ffd7;
+
+  --color-white-transparent-bg: #ffffff2d;
+  --color-white-transparent-border: #ffffff3f;
+
+  /* Typography */
+
+  --font-family-title: "Cal Sans", Arial, Helvetica, sans-serif;
+  --font-family-body: "Albert Sans", Arial, Helvetica, sans-serif;
+  --font-family-heading: "Albert Sans", Arial, Helvetica, sans-serif;
+  --font-family-mono: "Courier New", Courier, monospace;
+
+  --font-size-xs: 0.75rem;     /* 12px */
+  --font-size-sm: 0.875rem;    /* 14px */
+  --font-size-md: 1rem;        /* 16px */
+  --font-size-lg: 1.125rem;    /* 18px */
+  --font-size-xl: 1.25rem;     /* 20px */
+  --font-size-2xl: 1.5rem;     /* 24px */
+  --font-size-3xl: 2rem;       /* 32px */
+  --font-size-4xl: 2.5rem;     /* 40px */
+  --font-size-5xl: 3rem;       /* 48px */
+
+  --font-weight-thin: 100;
+  --font-weight-extralight: 200;
+  --font-weight-light: 400;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extra-bold: 800;
+
+  /* Spacing */
+
+  --spacing-xxs: 0.125rem;  /* 2px */
+  --spacing-xs: 0.25rem;    /* 4px */
+  --spacing-sm: 0.5rem;     /* 8px */
+  --spacing-md: 0.75rem;    /* 12px */
+  --spacing-lg: 1rem;       /* 16px */
+  --spacing-xl: 1.25rem;    /* 20px */
+  --spacing-2xl: 1.5rem;    /* 24px */
+  --spacing-3xl: 2rem;      /* 32px */
+  --spacing-4xl: 3rem;      /* 48px */
+  --spacing-5xl: 4rem;      /* 64px */
+  --spacing-6xl: 6rem;      /* 96px */
+
+  /* Border Radius */
+
+  --radius-md: 0.75rem;     /* 12px */
+  --radius-xl: 1.25rem;     /* 20px */
+  --radius-3xl: 3.0rem;     /* 48px*/
+  --radius-pill: 999px;
+
+  /* Shadows */
+
+  --shadow-sm: 0 2px 10px 0 rgba(153, 153, 153, 0.25);
+  --shadow-md: 0 1px 10px 0 rgba(0, 0, 0, 0.25);
+  --shadow-glow: 0 1px 4px 0 rgba(248, 172, 134, 1.0);
+
+  /* Layout */
+
+  --container-width: 1256px;
+  --container-padding: 2.5rem;
+
+  --header-height: 5.0rem;
+
+  /* Transitions*/
+
+  --transition-fast: 150ms ease;
+  --transition-default: 250ms ease;
+  --transition-slow: 400ms ease;
+}
+
+@media (max-width: 1024px) {
+  :root {
+    --container-padding: 1.5rem;
+    --section-padding-y: 5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  :root {
+    --container-padding: 1rem;
+    --header-height: 4rem;
+    --section-padding-y: 4rem;
+  }
+}
+
+@media (max-width: 480px) {
+  :root {
+    --container-padding: 1.25rem;
+    --header-height: 3.5rem;
+    --section-padding-y:1.0rem;
+  }
+}
